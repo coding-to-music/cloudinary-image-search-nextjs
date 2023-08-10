@@ -22,7 +22,7 @@ Demo for tutorial [Image Gallery with Search in Next.js using Cloudinary Node.js
 ## Node Environment:
 
 ```java
-nvm use 20
+nvm use 18
 ```
 
 ## Environment variables:
