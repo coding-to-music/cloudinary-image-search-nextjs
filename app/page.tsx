@@ -11,6 +11,11 @@ cloudinary.config({
 
 const folder_name = process.env.NEXT_PUBLIC_CLOUDINARY_FOLDER_NAME;
 
+// console.log('cloud_name', process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME);
+// console.log('api_key', process.env.NEXT_PUBLIC_CLOUDINARY_API_KEY);
+// console.log('api_secret', process.env.NEXT_PUBLIC_CLOUDINARY_API_SECRET);
+// console.log('folder_name', folder_name);
+
 export default async function Home({ searchParams }: { searchParams: any }) {
   const query = searchParams.query;
   
