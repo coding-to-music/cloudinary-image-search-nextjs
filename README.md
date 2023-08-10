@@ -22,16 +22,16 @@ Demo for tutorial [Image Gallery with Search in Next.js using Cloudinary Node.js
 ## Node Environment:
 
 ```java
-nvm use 18
+nvm use 20
 ```
 
 ## Environment variables:
 
 ```java
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""
-NEXT_PUBLIC_CLOUDINARY_API_KEY=""
-NEXT_PUBLIC_CLOUDINARY_API_SECRET=""
-NEXT_PUBLIC_CLOUDINARY_FOLDER_NAME=""
+CLOUDINARY_API_KEY=""
+CLOUDINARY_API_SECRET=""
+CLOUDINARY_FOLDER_NAME=""
 ```
 
 ## GitHub

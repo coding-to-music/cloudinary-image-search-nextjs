@@ -5,16 +5,16 @@ import CldImage from '@/app/components/CldImage';
 
 cloudinary.config({
   cloud_name: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.NEXT_PUBLIC_CLOUDINARY_API_KEY,
-  api_secret: process.env.NEXT_PUBLIC_CLOUDINARY_API_SECRET,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
 })
 
 const folder_name = process.env.NEXT_PUBLIC_CLOUDINARY_FOLDER_NAME;
 
-// console.log('cloud_name', process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME);
-// console.log('api_key', process.env.NEXT_PUBLIC_CLOUDINARY_API_KEY);
-// console.log('api_secret', process.env.NEXT_PUBLIC_CLOUDINARY_API_SECRET);
-// console.log('folder_name', folder_name);
+console.log('cloud_name', process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME);
+console.log('api_key', process.env.CLOUDINARY_API_KEY);
+console.log('api_secret', process.env.CLOUDINARY_API_SECRET);
+console.log('folder_name', folder_name);
 
 export default async function Home({ searchParams }: { searchParams: any }) {
   const query = searchParams.query;
