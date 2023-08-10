@@ -1,9 +1,10 @@
 {
-  "name": "test-cloudinary",
+  "name": "cloudinary-image-search-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "deploy": "git add . && git commit -m 'Build' && git push",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
